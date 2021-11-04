@@ -1,0 +1,111 @@
+body{
+	color:rgb(15, 2, 2);
+	background-color:rgb(194, 66, 117);
+}
+
+
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background-color:rgb(185, 119, 119);
+}
+
+#header{
+	height:70px;
+	text-align:center;
+    font-family:arial;
+    font-size: 30px;
+		
+}
+
+#german{
+    width:80px;
+    height:80;
+    position:abosolute;
+    left: 250px;
+    top:200px;
+
+}
+
+#leftbody{
+	float:left;
+	width:350px;
+	height: 1000px;
+	background-color:#976d2d;
+	padding:5px;
+    font-family:arial;
+    font-size: 30px;
+}
+
+
+
+p{
+    background-color: rgb(196, 83, 196);
+}
+
+div p{
+    background-color: brown;
+    text-align:center;
+    font-family:arial;
+    font-size: 30px;
+}
+
+div > p{
+    background-color: darkorchid;
+
+}
+
+
+
+
+div + p{
+    background-color: rgb(139, 14, 211);
+    color: rgb(171, 27, 228);
+    width:100px;
+    height:50px;
+    position: absolute;
+    left:20px;
+    top:800px;
+}
+
+
+#haah{
+    background-color: rgb(173, 21, 219);
+    color: rgb(165, 9, 212);
+    width:100px;
+    height:50px;
+    position: absolute;
+    left: 200px;
+    top: 800px;
+}
+
+#rightbody{
+	float:right;
+	width:1500px;
+	height:1000px;
+	background:#638592;
+	padding:5px;
+    font-family:arial;
+    font-size: 30px;
+}
+
+
+
+#eatt{
+    width:200px;
+    height:200px;
+    position:fixed;
+    right: 100px;
+    bottom:100px;
+    
+
+}
+
+#bottom{
+	text-align:center;
+	height:50px;
+    clear:both;
+    font-family:arial;
+    font-size: 30px;
+
+}
